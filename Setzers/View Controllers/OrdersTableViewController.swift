@@ -10,7 +10,7 @@ import UIKit
 
 class OrdersTableViewController: UITableViewController {
   
-  var todaysOrders: [Order] = [orderOne, orderTwo, orderThree, orderFour]
+  var todaysOrders: [Order] = [orderOne, orderTwo, orderThree, orderFour, orderFive]
   var currentTime: String = ""
   let defaults = UserDefaults.standard
   

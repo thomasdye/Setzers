@@ -40,37 +40,46 @@ struct OrderDetails {
 }
 
 var orderOne: Order = Order(stopNumber: 1,
-                            orderNumber: "1",
+                            orderNumber: "264723",
                             orderDetails: "",
-                            customerName: "Dye",
+                            customerName: "Young",
                             customerPhoneNumber: "1-904-334-5606",
                             customerAddress: "7660 Philips Highway, Jacksonville, FL 32217",
                             salesRep: ken,
                             orderCompleted: false)
 
 var orderTwo: Order = Order(stopNumber: 2,
-                            orderNumber: "2",
+                            orderNumber: "268334",
                             orderDetails: "",
-                            customerName: "Dye",
+                            customerName: "Cox",
                             customerPhoneNumber: "1-904-334-5606",
                             customerAddress: "11964 Elizabeth Ann Court, Jacksonville, FL, 32223",
                             salesRep: michael,
                             orderCompleted: false)
 
 var orderThree: Order = Order(stopNumber: 3,
-                              orderNumber: "3",
+                              orderNumber: "269932",
                               orderDetails: "",
-                              customerName: "Dye",
+                              customerName: "Akers",
                               customerPhoneNumber: "1-904-334-5606",
                               customerAddress: "228 Leese Drive, Saint Johns, FL 32259",
                               salesRep: greg,
                               orderCompleted: false)
 
 var orderFour: Order = Order(stopNumber: 4,
-                             orderNumber: "4",
+                             orderNumber: "271029",
                              orderDetails: "",
-                             customerName: "Dye",
+                             customerName: "Lukes",
                              customerPhoneNumber: "1-904-334-5606",
                              customerAddress: "11453 Wandering Pines Lane, Jacksonville, FL 32258",
+                             salesRep: blake,
+                             orderCompleted: false)
+
+var orderFive: Order = Order(stopNumber: 5,
+                             orderNumber: "273123",
+                             orderDetails: "",
+                             customerName: "Jameson",
+                             customerPhoneNumber: "1-904-334-5606",
+                             customerAddress: "11964 Elizabeth Ann Court, Jacksonville, FL 32223",
                              salesRep: blake,
                              orderCompleted: false)
